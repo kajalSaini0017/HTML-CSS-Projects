@@ -1,0 +1,160 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url("images/image.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    width:100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+
+}
+ header{
+    margin: 300px 300px;
+    letter-spacing: 4px;
+    word-spacing:5px;
+    background-color: rgba(0, 0, 0, 0.847);
+    color: white;
+    text-align: center;
+    padding:1vw 1vh;
+
+ }
+ .background{
+    background-image: url("images/wc1672601.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+    background-position: center;
+ }
+
+.one{
+    background-color: rgb(193, 189, 189);
+    margin:0px;
+    padding:20px;
+    word-spacing: 4px;
+}
+.one h3{
+    text-align: center;
+}
+.one p{
+    line-height:2;
+}
+.nature{
+    margin: 300px 300px;
+    letter-spacing: 4px;
+    word-spacing:5px;
+    background-color: rgba(0, 0, 0, 0.847);
+    color: white;
+    text-align: center;
+    padding:1vw 1vh;
+
+}
+
+.two{
+    background-color:rgb(8, 8, 8);
+    color: white;
+    margin:0px;
+    padding:20px;
+    word-spacing: 4px;  
+}
+.two h3{
+    text-align: center;
+}
+.two p{
+    line-height: 25px;
+}
+.into{
+    margin:300px 300px;
+    letter-spacing: 4px;
+    word-spacing:5px;
+    background-color: rgba(0, 0, 0, 0.844);
+    color:white;
+    text-align: center;
+    padding:1vw;
+}
+.three{
+    background-color: rgb(193, 189, 189);
+    margin:0px;
+    padding:20px;
+    word-spacing: 4px;
+}
+.three h3{
+    text-align: center;
+}
+.three p{
+    line-height: 25px;
+}
+.some{
+    margin:300px 300px;
+    letter-spacing: 4px;
+    word-spacing:5px;
+    background-color: rgba(0, 0, 0, 0.847);
+    color: white;
+    text-align: center;
+    padding:1vw;
+}
+@media screen and (max-width:900px){
+    .one{
+        padding:10px;
+        word-spacing:2px
+    }
+    .one p{
+        line-height:1.2;
+    }
+    .two{
+       padding:10px;
+       word-spacing: 2px;
+    }
+    .two p{
+        line-height: 1.2;
+    }
+    .three{
+        padding:10px;
+        word-spacing:2px;
+    }
+    .three p{
+        line-height: 1.2;
+    }
+    header{
+        margin:40vh 30vw;
+        padding: 2vh 1.5vw;
+    }
+    .nature{
+        margin:40vh 30vw;
+        padding: 2vh 1.5vw;
+    }
+    .into{
+        margin:40vh 30vw;
+        padding: 2vh 1.5vw;
+    }
+    .some{
+        margin: 40vh 30vw;
+        padding: 2vh 1.5vw;
+    }
+}
+@media screen and (max-width:600px) {
+    *{
+        text-align: center;
+    }
+    header h1{
+        font-size: 15px;
+    }
+    .nature h1{
+        font-size: 15px;
+    }
+    .into h1{
+        font-size: 15px;
+    }
+    .some h1{
+        font-size: 15px;
+    }
+
+}

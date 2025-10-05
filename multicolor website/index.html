@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root {
+        --backcolor: rgb(159, 213, 12);
+        --color:rgb(238, 254, 215);
+    }
+     body{
+        background-color: aliceblue;
+     }
+    .cantainer {
+        background-color: var(--backcolor);
+        color:black;
+
+    }
+
+    .cantainer ul li{
+        list-style: none;
+        padding:30px;
+    }
+    ul{
+        display:flex;
+    }
+    li:hover{
+        background-color:var(--color);
+        cursor: pointer;
+    }
+    .about{
+        
+        padding:10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px gray,-1px -1px 5px rgb(255, 247, 247)  ;
+        background-color: var(--color);
+    
+    }
+    .about h2{
+        text-decoration: underline ;
+        text-decoration-color: var(--backcolor);
+    }
+    .contact{
+        
+        padding: 30px;
+        margin:0 auto;
+        margin-top: 60px;
+        width:50vw;
+        height: auto;
+        border-radius: 20px;
+        box-shadow:5px 5px 10px gray ;
+        background-color: var(--backcolor);
+        
+        
+    }
+    input[type="text"],input[type="email"],input[type="number"]{
+        padding:10px;
+        margin: 20px;
+        width: 90%;
+        border-radius:10px;
+        border: none;
+    }
+    button{
+        padding: 10px 30px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+        border:none;
+        background-color: white;
+        color:var(--color);
+        background-color: rgb(100, 169, 169);
+        
+    }
+    button:hover{
+        background-color:steelblue;
+        cursor: pointer;
+    }
+    .services{
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+        background-color: var(--color);
+    
+    }
+    .services h2{
+         text-align:center;
+         text-decoration: underline;
+         text-decoration-color:var(--backcolor);
+    }
+    .services p{
+        width: 100%;
+        border-radius: 50px;
+        padding: 8px;
+        background-color:var(--backcolor)
+
+    }
+
+</style>
+
+<body>
+    <div class="cantainer">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+        </ul>
+
+    </div>
+    <div class="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum esse, reiciendis cumque tempore, dicta
+            veniam fuga beatae, harum odio nam debitis labore. Tenetur architecto itaque, accusantium aliquid inventore
+            enim maiores voluptas illo similique nostrum, unde voluptatibus, minus adipisci. Ex quasi accusamus quod rem
+            at.</p>
+    </div>
+    <div class="contact">
+        <h2>contact</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="enter your name"><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="enter your email"><br>
+        <lable for="phone">Phone</lable>
+        <input type="number" id="phone" placeholder="enter phone no"><br>
+        <button>Contact</button>
+    </div>
+    <div class="services">
+        <h2>Services</h2>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JAVASCRIPT</p>
+    </div>
+</body>
+
+</html>

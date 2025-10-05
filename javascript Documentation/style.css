@@ -1,0 +1,77 @@
+html,body{
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+header{
+    border: 2px solid rgb(235, 234, 234);
+    height:100vh;
+    position: sticky;
+    top:0;
+}
+nav h1{
+    font-size: 20px ;
+    font-weight: 300;
+    padding: 20px 50px;
+    border-bottom:1px solid rgb(235, 233, 233);
+
+
+}
+nav ul li{
+    border-bottom: 1px solid rgb(231, 231, 231);
+    padding: 20px 50px;
+
+    list-style: none;
+    color: black;
+    
+}
+nav li:hover{
+    color: white;
+    background-color: rgb(68, 67, 67);
+    transition: 0.3s ease-in;
+}
+ a{
+    text-decoration: none;
+}
+main{
+    padding: 50px;
+}
+main p{
+    padding: 10px;
+}
+main ul{
+
+    padding-left: 50px;
+}
+main li{
+    padding: 10px;
+}
+main section{
+    padding: 20px;
+}
+
+.Hello div{
+    border:2px solid rgb(241, 239, 239);
+    padding:10px 80px 10px 20px;
+    font-weight: bold;
+    background-color: rgb(241, 239, 239);
+    margin-left: 10px;
+}
+@media  screen and (max-width:900px) {
+      nav{
+        display: none;
+      }
+      main{
+        padding:30px 15px;
+      }
+    
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.847);
+            color: white;
+        }
+        h1{
+            background-color: black;
+            font-size: 54px;
+            text-align: center;
+        }
+        .container{
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            gap:30px;
+            text-align: center;
+            
+        }
+        * img{
+            width:400px;
+            height:250px;
+        }
+        .box{
+            height: auto;
+            border: 2px solid gray;
+            padding: 20px;
+            grid-row: 1/3;
+            box-shadow: 2px 2px 6px white,-1px -1px 3px gray;
+            border-radius: 50px;
+            align-items: center;
+        }
+        .box1{
+            height: auto;
+            border: 2px solid gray;
+            padding: 20px;
+            box-shadow: 2px 2px 6px white,-1px -1px 3px gray;
+            border-radius: 50px;
+        }
+        .box2{
+            height: auto;
+            border: 2px solid gray;
+            padding: 20px;
+            box-shadow: 2px 2px 6px white,-1px -1px 3px gray;
+            border-radius: 50px;
+        }
+        @media screen and (max-width:500px){
+            .container{
+                display:flex;
+                flex-direction: column;
+            }
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <hr/>
+        <h1>THE BLOGE</h1>
+        <hr/>
+    </header>
+    <main>
+     <div class="container">
+        <div class="box">
+            <img src="images/image.jpg" alt="nature">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis laudantium voluptatem asperiores fugiat quos quod odio dolor soluta inventore exercitationem, ad dolorum voluptas magni corporis numquam pariatur veritatis, blanditiis non harum qui aspernatur tempora, distinctio porro. Corporis ex mollitia est. Exercitationem quia quos laboriosam porro ut officia maxime veniam, unde, esse quae quibusdam delectus placeat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, neque laudantium! Deleniti quos aspernatur ipsum ab cupiditate incidunt repudiandae atque eligendi culpa temporibus voluptatum eveniet dolorem vero excepturi, ipsa beatae officia praesentium eaque obcaecati, laudantium molestiae provident. Quae minus harum cumque voluptas hic? In architecto laudantium, aperiam nostrum esse dicta porro. Tempore dicta quaerat accusamus nostrum minima vitae voluptatibus dolor eius omnis? Dolorem, rem libero nesciunt sapiente culpa quibusdam inventore eos nulla eum cupiditate nemo, quia officiis.
+            </p>
+            <button>LOGIN</button>
+            <button>FOLLOW</button>
+        </div>
+        <div class="box1">
+            <img src="images/WhatsApp Image 2025-04-28 at 22.56.49_d7918d27.jpg" alt="collage">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur non quod eligendi iste quam itaque natus necessitatibus porro, sed animi quos doloremque suscipit ipsam nihil cupiditate accusantium odio nostrum distinctio ab impedit officia molestias vitae debitis vel. Iure, aliquid reiciendis. Facilis expedita numquam mollitia necessitatibus, earum nesciunt nisi aliquam sed, nobis sunt rerum voluptatem, soluta cumque!</p>
+            <button>LOGIN</button>
+            <button>FOLLOW</button>
+        </div>
+        <div class="box2">
+            <img src="images/wc1672601.jpg" alt="nature">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sunt officiis ipsam sit corporis aliquam quidem aliquid libero laboriosam, cupiditate eius animi, esse temporibus commodi quibusdam dignissimos harum ex odit. Recusandae, quos beatae. Earum in, delectus assumenda cumque non, nostrum deserunt exercitationem sit fuga magni veniam officia dolores, molestias necessitatibus ipsam! Id facilis animi harum doloremque, rerum, pariatur libero provident nobis excepturi nisi enim laborum maiores.</p>
+            <button>LOGIN</button>
+            <button>FOLLOW</button>
+        </div>
+     </div>
+    </main>
+</body>
+</html>

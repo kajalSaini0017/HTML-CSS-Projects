@@ -1,0 +1,259 @@
+html{
+     overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+#hero{
+    background-image: url("images/image1.jpg");
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+#hero h1{
+    font-size: 80px;
+    font-weight:500;
+}
+#hero h4{
+    font-size:25px;
+    font-weight:100;
+    opacity: 0.7;
+}
+#hero p{
+    opacity: 0.6;
+    font-weight: 100;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    background-color: rgb(68, 45, 173);
+    color:white;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+    box-shadow: 2px 2px 5px black;
+
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.list li{
+    padding:0px 20px;
+}
+.list a{
+    color: white;
+    text-decoration: none;
+}
+.list a:hover{
+    text-decoration: underline;
+    transition: 0.3s ease-in;
+}
+.myTunes{
+    padding:12px;
+    font-size: 25px;
+}
+#music{
+    background-color:rgb(44, 9, 92);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+    padding-top:15px;
+    text-align: center;
+}
+#music h2{
+    font-size:40px;
+    font-weight: 200;
+}
+#music h4{
+    font-size: larger;
+    font-weight: 100;
+}
+#music div{
+    padding: 10px;
+    opacity: 0.9;
+    font-weight: 100;
+}
+#music button{
+    padding: 12px 8px;
+    background-color: red;
+    color:white;
+    border: none;
+
+}
+.ipad img{
+    max-width:80vw;
+    width: 100%;
+    height: auto;
+}
+.pera{
+    padding: 15px;
+    opacity: 0.4;
+}
+.content{
+    background-color: white;
+    width: 100vw;
+    height:100vh;
+    text-align:center;
+    align-content:end;
+    
+}
+.content h3{
+    font-size:30px;
+}
+.content div{
+    padding:5px 5px 20px 5px;
+    opacity: 0.8;
+}
+.content button{
+    background-color: rgb(51, 0, 128);
+    color:white;
+    padding: 15px;
+    border:none;
+}
+.mac{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+.mac img{
+    width: 100%;
+    max-width: 80vw;
+
+}
+#Video{
+    background-image: url("images/video.png");
+    background-size: cover;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+#Video h2{
+    padding-top:20vh;
+}
+#Video p{
+    padding: 1vw 4vw;
+     opacity: 0.9;
+}
+#gitcard{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    padding: 40px;
+}
+.box1 img{
+    width: 100%;
+}
+.box1{
+    justify-self:center;
+}
+.box2 h3{
+    font-size:25px;
+}
+.box2 p{
+    line-height: 2;
+    padding-right: 40px;
+}
+.pin{
+    font-size:17px;
+}
+.box2 div{
+    border: 1px solid gray;
+}
+.box2 button{
+    background-color: rgb(41, 10, 132);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top:20px;
+}
+.info{
+    background-color: rgb(30, 3, 80);
+    color:white;
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly;
+    padding: 50px 100px 80px;
+}
+.info ul{
+    list-style: none;
+    text-align: start;
+    opacity: 0.7;
+}
+.info h3{
+    color: white;
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(61, 32, 190);
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+@media  screen and (max-width:960px) {
+    .content{
+        height: 70vh;
+        padding: 1%;
+    }
+    .video p{
+        padding:10px ;
+    }
+    #gridcard{
+        padding: 20px;
+    }
+    .box2 h3{
+        font-size:20px
+    }
+    .box2 p{
+        line-height:1.3 ;
+        font-size:15px;
+        padding-right: 10px;
+    }
+    .info{
+        flex-direction: column;
+        text-align: center;
+        gap:2vh;
+    }
+    .info ul{
+        text-align: center;
+    }
+
+}
+@media  screen and (max-width:600px) {
+    .hero{
+        max-width:100%;
+        max-height: 100%;
+
+
+    }
+    .list{
+        display: none;
+    }
+    .nav{
+       flex-direction: column;
+    }
+    .myTunes{
+        width: 100%;
+        text-align: center;
+    }
+    #gitcard{
+        grid-template-columns:1fr;
+    
+    }
+}
