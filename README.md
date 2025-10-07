@@ -1,6 +1,23 @@
 # HTML & CSS Projects
 
-A Collection of HTML & CSS projects to practice frontent development skills.
+A collection of **HTML & CSS projects** created to practice and showcase **modern frontend development skills**.
+These projects cover various UI layouts, responsive techniques, and creative CSS effects - perfect for beginners who want to build a solid foundation in web development.
+
+---
+
+## Projects Screenshots
+
+A quick preview of some featured projects:
+
+| Bloge Website | Developer Page | JavaScript Documentation |
+|---------------|----------------|--------------------------|
+| ![Bloge Website](Projects-Screenshot/Bloge-Website-Screenshot.jpeg) | ![Developer Page](Projects-Screenshot/Developer-Page-Screenshot.jpeg) | ![JavaScript Documenttation](Projects-Screenshot/JavaScript-Documentation-Screenshot.jpeg) |
+
+| Music Website | Restaurant Website |
+|---------------|--------------------|
+| ![Music Website](Projects-Screenshot/Music-Website-Screenshot.jpeg) | ![Restaurant Website](Projects-Screenshot/Restaurant-Website-Screenshot.jpeg) |
+
+> More screenshots are available in the `Projects-Screenshot` Folder for all projects.
 
 ## Projects
 1. blog-page - Simple blog layout.
@@ -15,10 +32,11 @@ A Collection of HTML & CSS projects to practice frontent development skills.
 
 ## Skills Learned
 
-- HTML5 semantic tags
-- CSS Flexbox & Grid
-- Responsive design & media queries
-- CSS transitions & hover effects
+- Semantic **HTML5** structure
+- **CSS Flexbox** & **Grid** layouts
+- **Responsive design** with media queries
+- **CSS transitions**, hover effects & parallax
+- **CSS variables** for theme customization
 
 ## How to Run
 
