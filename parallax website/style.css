@@ -6,10 +6,10 @@ html{
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
-    
-    background-image: url("images/image.jpg");
-    background-attachment: fixed;
+     background-image: url("images/image.jpg");
+    background-attachment:fixed;
     background-size: cover;
     background-position:center;
     width:100%;
