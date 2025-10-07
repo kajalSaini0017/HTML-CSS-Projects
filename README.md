@@ -9,13 +9,13 @@ These projects cover various UI layouts, responsive techniques, and creative CSS
 
 A quick preview of some featured projects:
 
-| Bloge Website | Developer Page | JavaScript Documentation |
+| Restaurant Website | Developer Page | JavaScript Documentation |
 |---------------|----------------|--------------------------|
-| ![Bloge Website](Projects-Screenshot/Bloge-Website-Screenshot.jpeg) | ![Developer Page](Projects-Screenshot/Developer-Page-Screenshot.jpeg) | ![JavaScript Documenttation](Projects-Screenshot/JavaScript-Documentation-Screenshot.jpeg) |
+| ![Restaurant Website](Projects-Screenshot/Restaurant-Website-Screenshot.jpeg) | ![Developer Page](Projects-Screenshot/Developer-Page-Screenshot.jpeg) | ![JavaScript Documenttation](Projects-Screenshot/JavaScript-Documentation-Screenshot.jpeg) |
 
-| Music Website | Restaurant Website |
+| Music Website | Bloge Website |
 |---------------|--------------------|
-| ![Music Website](Projects-Screenshot/Music-Website-Screenshot.jpeg) | ![Restaurant Website](Projects-Screenshot/Restaurant-Website-Screenshot.jpeg) |
+| ![Music Website](Projects-Screenshot/Music-Website-Screenshot.jpeg) | ![Restaurant Website](Projects-Screenshot/Bloge-Website-Screenshot.jpeg) |
 
 > More screenshots are available in the `Projects-Screenshot` Folder for all projects.
 
